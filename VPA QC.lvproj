@@ -19,6 +19,7 @@
 			<Item Name="VPA QC General Cluster.ctl" Type="VI" URL="../Controls/VPA QC General Cluster.ctl"/>
 			<Item Name="VPA QC State Data Cluster.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster.ctl"/>
 			<Item Name="VPA QC State Enum.ctl" Type="VI" URL="../Controls/VPA QC State Enum.ctl"/>
+			<Item Name="VPA QC Volume Timer Enum.ctl" Type="VI" URL="../Controls/VPA QC Volume Timer Enum.ctl"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Galil Read Variables.vi" Type="VI" URL="../Sub VIs/Galil Read Variables.vi"/>
@@ -37,7 +38,7 @@
 		<Item Name="VPA QC Pressure Test.vi" Type="VI" URL="../VPA QC Pressure Test.vi"/>
 		<Item Name="VPA QC Verify Pump Operation.vi" Type="VI" URL="../VPA QC Verify Pump Operation.vi"/>
 		<Item Name="VPA QC Volume Calibration.vi" Type="VI" URL="../VPA QC Volume Calibration.vi"/>
-		<Item Name="VPA QC Volume Timer Enum.ctl" Type="VI" URL="../Controls/VPA QC Volume Timer Enum.ctl"/>
+		<Item Name="VPA QC XDCR DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR DAQ.vi"/>
 		<Item Name="VPA QC XDCR Setup.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR Setup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
