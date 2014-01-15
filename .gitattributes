@@ -1,6 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+# LabVIEW
+*.lvproj   binary
+*.lvlib    binary
+*.lvclass  binary
+
 # Custom for Visual Studio
 *.cs     diff=csharp
 *.sln    merge=union
