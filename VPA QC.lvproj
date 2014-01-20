@@ -26,9 +26,11 @@
 			<Item Name="MS Elapsed.vi" Type="VI" URL="../Sub VIs/MS Elapsed.vi"/>
 			<Item Name="VPA QC DAQ Loop.vi" Type="VI" URL="../VPA QC DAQ Loop.vi"/>
 			<Item Name="VPA QC Get Data.vi" Type="VI" URL="../Sub VIs/VPA QC Get Data.vi"/>
+			<Item Name="VPA QC Print Page.vi" Type="VI" URL="../VPA QC Print Page.vi"/>
 		</Item>
 		<Item Name="VPA QC Assemble Checklist.vi" Type="VI" URL="../VPA QC Assemble Checklist.vi"/>
 		<Item Name="VPA QC Calibrate XDCRs.vi" Type="VI" URL="../VPA QC Calibrate XDCRs.vi"/>
+		<Item Name="VPA QC Choose Printer.vi" Type="VI" URL="../Sub VIs/VPA QC Choose Printer.vi"/>
 		<Item Name="VPA QC Config IO.vi" Type="VI" URL="../Sub VIs/VPA QC Config IO.vi"/>
 		<Item Name="VPA QC Final Checklist.vi" Type="VI" URL="../VPA QC Final Checklist.vi"/>
 		<Item Name="VPA QC Flow Test.vi" Type="VI" URL="../VPA QC Flow Test.vi"/>
