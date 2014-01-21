@@ -17,6 +17,7 @@
 			<Item Name="VPA QC DAQ Q.ctl" Type="VI" URL="../Controls/VPA QC DAQ Q.ctl"/>
 			<Item Name="VPA QC DAQ Ref Cluster.ctl" Type="VI" URL="../Controls/VPA QC DAQ Ref Cluster.ctl"/>
 			<Item Name="VPA QC General Cluster.ctl" Type="VI" URL="../Controls/VPA QC General Cluster.ctl"/>
+			<Item Name="VPA QC State Data Cluster Ver 1.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster Ver 1.ctl"/>
 			<Item Name="VPA QC State Data Cluster.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster.ctl"/>
 			<Item Name="VPA QC State Enum.ctl" Type="VI" URL="../Controls/VPA QC State Enum.ctl"/>
 			<Item Name="VPA QC Volume Timer Enum.ctl" Type="VI" URL="../Controls/VPA QC Volume Timer Enum.ctl"/>
@@ -24,16 +25,18 @@
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Galil Read Variables.vi" Type="VI" URL="../Sub VIs/Galil Read Variables.vi"/>
 			<Item Name="MS Elapsed.vi" Type="VI" URL="../Sub VIs/MS Elapsed.vi"/>
+			<Item Name="VPA QC Config IO.vi" Type="VI" URL="../Sub VIs/VPA QC Config IO.vi"/>
 			<Item Name="VPA QC DAQ Loop.vi" Type="VI" URL="../VPA QC DAQ Loop.vi"/>
+			<Item Name="VPA QC File IO.vi" Type="VI" URL="../Sub VIs/VPA QC File IO.vi"/>
 			<Item Name="VPA QC Get Data.vi" Type="VI" URL="../Sub VIs/VPA QC Get Data.vi"/>
 			<Item Name="VPA QC Print Page.vi" Type="VI" URL="../VPA QC Print Page.vi"/>
+			<Item Name="VPA QC Try Get Old File Data.vi" Type="VI" URL="../Sub VIs/VPA QC Try Get Old File Data.vi"/>
+			<Item Name="VPA QC XDCR DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR DAQ.vi"/>
 		</Item>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
 		<Item Name="VPA QC Assemble Checklist.vi" Type="VI" URL="../VPA QC Assemble Checklist.vi"/>
 		<Item Name="VPA QC Calibrate XDCRs.vi" Type="VI" URL="../VPA QC Calibrate XDCRs.vi"/>
 		<Item Name="VPA QC Choose Printer.vi" Type="VI" URL="../Sub VIs/VPA QC Choose Printer.vi"/>
-		<Item Name="VPA QC Config IO.vi" Type="VI" URL="../Sub VIs/VPA QC Config IO.vi"/>
-		<Item Name="VPA QC File IO.vi" Type="VI" URL="../Sub VIs/VPA QC File IO.vi"/>
 		<Item Name="VPA QC Final Checklist.vi" Type="VI" URL="../VPA QC Final Checklist.vi"/>
 		<Item Name="VPA QC Flow Test.vi" Type="VI" URL="../VPA QC Flow Test.vi"/>
 		<Item Name="VPA QC General Section.vi" Type="VI" URL="../VPA QC General Section.vi"/>
@@ -44,7 +47,6 @@
 		<Item Name="VPA QC Pressure Test.vi" Type="VI" URL="../VPA QC Pressure Test.vi"/>
 		<Item Name="VPA QC Verify Pump Operation.vi" Type="VI" URL="../VPA QC Verify Pump Operation.vi"/>
 		<Item Name="VPA QC Volume Calibration.vi" Type="VI" URL="../VPA QC Volume Calibration.vi"/>
-		<Item Name="VPA QC XDCR DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR DAQ.vi"/>
 		<Item Name="VPA QC XDCR Setup.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR Setup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -54,6 +56,7 @@
 				<Item Name="MGI Current VI&apos;s Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Current VI&apos;s Reference.vi"/>
 				<Item Name="MGI Exit if Runtime.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Exit if Runtime.vi"/>
 				<Item Name="MGI Get Cluster Elements.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Cluster/MGI Get Cluster Elements.vi"/>
+				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="MGI Hex Str to U8 Data.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Hex Str to U8 Data.vi"/>
 				<Item Name="MGI Insert Reserved Error.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Insert Reserved Error.vi"/>
 				<Item Name="MGI Level&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Level&apos;s VI Reference.vi"/>
@@ -90,6 +93,9 @@
 				<Item Name="MGI Top Level VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Top Level VI Reference.vi"/>
 				<Item Name="MGI U8 Data to Hex Str.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI U8 Data to Hex Str.vi"/>
 				<Item Name="MGI VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference.vi"/>
+				<Item Name="MGI Wait (Double).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Wait/MGI Wait (Double).vi"/>
+				<Item Name="MGI Wait (U32).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Wait/MGI Wait (U32).vi"/>
+				<Item Name="MGI Wait.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Wait.vi"/>
 				<Item Name="MGI Windows Get Regional String.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Windows Get Regional String.vi"/>
 				<Item Name="MGI Windows Regional Ring.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Windows Get Regional String/MGI Windows Regional Ring.ctl"/>
 				<Item Name="MGI Write Anything.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI Write Anything.vi"/>
@@ -251,6 +257,9 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="VPA QC" Type="EXE">
@@ -268,7 +277,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6F68E47D-60E4-4CB7-BF6D-85172E76D572}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VPA QC Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/VPA QC Test.exe</Property>
@@ -280,7 +289,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9E4F9ED3-A67C-42A1-8EE0-FA83FB2065FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F9B0554B-C688-469D-8B8A-2EE90374AD38}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VPA QC Main.vi</Property>
