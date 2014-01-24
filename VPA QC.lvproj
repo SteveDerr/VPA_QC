@@ -18,6 +18,7 @@
 			<Item Name="VPA QC DAQ Ref Cluster.ctl" Type="VI" URL="../Controls/VPA QC DAQ Ref Cluster.ctl"/>
 			<Item Name="VPA QC General Cluster.ctl" Type="VI" URL="../Controls/VPA QC General Cluster.ctl"/>
 			<Item Name="VPA QC State Data Cluster Ver 1.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster Ver 1.ctl"/>
+			<Item Name="VPA QC State Data Cluster Ver 2.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster Ver 2.ctl"/>
 			<Item Name="VPA QC State Data Cluster.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster.ctl"/>
 			<Item Name="VPA QC State Enum.ctl" Type="VI" URL="../Controls/VPA QC State Enum.ctl"/>
 			<Item Name="VPA QC Volume Timer Enum.ctl" Type="VI" URL="../Controls/VPA QC Volume Timer Enum.ctl"/>
@@ -34,6 +35,7 @@
 			<Item Name="VPA QC XDCR DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR DAQ.vi"/>
 		</Item>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
+		<Item Name="VPA QC Add Comment.vi" Type="VI" URL="../VPA QC Add Comment.vi"/>
 		<Item Name="VPA QC Assemble Checklist.vi" Type="VI" URL="../VPA QC Assemble Checklist.vi"/>
 		<Item Name="VPA QC Calibrate XDCRs.vi" Type="VI" URL="../VPA QC Calibrate XDCRs.vi"/>
 		<Item Name="VPA QC Choose Printer.vi" Type="VI" URL="../Sub VIs/VPA QC Choose Printer.vi"/>
@@ -44,8 +46,10 @@
 		<Item Name="VPA QC Leak Test.vi" Type="VI" URL="../VPA QC Leak Test.vi"/>
 		<Item Name="VPA QC LS and XDCR Zero.vi" Type="VI" URL="../VPA QC LS and XDCR Zero.vi"/>
 		<Item Name="VPA QC Main.vi" Type="VI" URL="../VPA QC Main.vi"/>
+		<Item Name="VPA QC Parse String.vi" Type="VI" URL="../Sub VIs/VPA QC Parse String.vi"/>
 		<Item Name="VPA QC Pressure Test.vi" Type="VI" URL="../VPA QC Pressure Test.vi"/>
 		<Item Name="VPA QC Verify Pump Operation.vi" Type="VI" URL="../VPA QC Verify Pump Operation.vi"/>
+		<Item Name="VPA QC View Notes.vi" Type="VI" URL="../VPA QC View Notes.vi"/>
 		<Item Name="VPA QC Volume Calibration.vi" Type="VI" URL="../VPA QC Volume Calibration.vi"/>
 		<Item Name="VPA QC XDCR Setup.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR Setup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
