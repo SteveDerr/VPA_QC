@@ -261,7 +261,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{06951A12-4BC3-4224-B7D1-A1B5B91F641E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{9C21910F-03DE-4647-AABD-9F0525D9A315}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{47C2F558-34F3-40D2-B9BA-DF7AA223D7BB}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">VPA QC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -271,7 +270,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6F68E47D-60E4-4CB7-BF6D-85172E76D572}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VPA QC Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/VPA QC Test.exe</Property>
@@ -283,7 +282,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F9B0554B-C688-469D-8B8A-2EE90374AD38}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E63707FA-FC4E-4716-8714-81A485D4B937}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VPA QC Main.vi</Property>
