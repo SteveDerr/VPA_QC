@@ -10,18 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="Run-Time-Menu.rtm" Type="Document" URL="../Controls/Run-Time-Menu.rtm"/>
-			<Item Name="VPA QC Bool Cluster.ctl" Type="VI" URL="../Controls/VPA QC Bool Cluster.ctl"/>
-			<Item Name="VPA QC DAQ Cmd Enum.ctl" Type="VI" URL="../Controls/VPA QC DAQ Cmd Enum.ctl"/>
-			<Item Name="VPA QC DAQ Q.ctl" Type="VI" URL="../Controls/VPA QC DAQ Q.ctl"/>
-			<Item Name="VPA QC DAQ Ref Cluster.ctl" Type="VI" URL="../Controls/VPA QC DAQ Ref Cluster.ctl"/>
-			<Item Name="VPA QC General Cluster.ctl" Type="VI" URL="../Controls/VPA QC General Cluster.ctl"/>
-			<Item Name="VPA QC State Data Cluster Ver 1.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster Ver 1.ctl"/>
-			<Item Name="VPA QC State Data Cluster Ver 2.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster Ver 2.ctl"/>
-			<Item Name="VPA QC State Data Cluster.ctl" Type="VI" URL="../Controls/VPA QC State Data Cluster.ctl"/>
-			<Item Name="VPA QC State Enum.ctl" Type="VI" URL="../Controls/VPA QC State Enum.ctl"/>
-			<Item Name="VPA QC Volume Timer Enum.ctl" Type="VI" URL="../Controls/VPA QC Volume Timer Enum.ctl"/>
+		<Item Name="Controls" Type="Folder" URL="../Controls">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Galil Read Variables.vi" Type="VI" URL="../Sub VIs/Galil Read Variables.vi"/>
