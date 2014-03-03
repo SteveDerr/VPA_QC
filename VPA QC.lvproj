@@ -282,7 +282,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E63707FA-FC4E-4716-8714-81A485D4B937}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6206E504-3003-46FB-8AC3-0AC517C02D56}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VPA QC Main.vi</Property>
