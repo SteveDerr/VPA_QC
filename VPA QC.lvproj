@@ -18,6 +18,7 @@
 			<Item Name="MS Elapsed.vi" Type="VI" URL="../Sub VIs/MS Elapsed.vi"/>
 			<Item Name="VPA QC Config IO.vi" Type="VI" URL="../Sub VIs/VPA QC Config IO.vi"/>
 			<Item Name="VPA QC DAQ Loop.vi" Type="VI" URL="../VPA QC DAQ Loop.vi"/>
+			<Item Name="VPA QC Digital Scale DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC Digital Scale DAQ.vi"/>
 			<Item Name="VPA QC File IO.vi" Type="VI" URL="../Sub VIs/VPA QC File IO.vi"/>
 			<Item Name="VPA QC Get Data.vi" Type="VI" URL="../Sub VIs/VPA QC Get Data.vi"/>
 			<Item Name="VPA QC Print Page.vi" Type="VI" URL="../VPA QC Print Page.vi"/>
@@ -43,7 +44,7 @@
 		<Item Name="VPA QC Verify Pump Operation.vi" Type="VI" URL="../VPA QC Verify Pump Operation.vi"/>
 		<Item Name="VPA QC View Notes.vi" Type="VI" URL="../VPA QC View Notes.vi"/>
 		<Item Name="VPA QC Volume Calibration.vi" Type="VI" URL="../VPA QC Volume Calibration.vi"/>
-		<Item Name="VPA QC XDCR Setup.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR Setup.vi"/>
+		<Item Name="VPA QC XDCR and Scale Setup.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR and Scale Setup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
@@ -249,6 +250,9 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
