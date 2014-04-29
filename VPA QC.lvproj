@@ -22,9 +22,11 @@
 			<Item Name="VPA QC Digital Scale DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC Digital Scale DAQ.vi"/>
 			<Item Name="VPA QC File IO.vi" Type="VI" URL="../Sub VIs/VPA QC File IO.vi"/>
 			<Item Name="VPA QC Get Data.vi" Type="VI" URL="../Sub VIs/VPA QC Get Data.vi"/>
+			<Item Name="VPA QC Parse String.vi" Type="VI" URL="../Sub VIs/VPA QC Parse String.vi"/>
 			<Item Name="VPA QC Print Page.vi" Type="VI" URL="../VPA QC Print Page.vi"/>
 			<Item Name="VPA QC PSetPt FGV.vi" Type="VI" URL="../Sub VIs/VPA QC PSetPt FGV.vi"/>
 			<Item Name="VPA QC Try Get Old File Data.vi" Type="VI" URL="../Sub VIs/VPA QC Try Get Old File Data.vi"/>
+			<Item Name="VPA QC Update Flow Data.vi" Type="VI" URL="../Sub VIs/VPA QC Update Flow Data.vi"/>
 			<Item Name="VPA QC XDCR DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR DAQ.vi"/>
 		</Item>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
@@ -40,11 +42,10 @@
 		<Item Name="VPA QC Leak Test.vi" Type="VI" URL="../VPA QC Leak Test.vi"/>
 		<Item Name="VPA QC LS and XDCR Zero.vi" Type="VI" URL="../VPA QC LS and XDCR Zero.vi"/>
 		<Item Name="VPA QC Main.vi" Type="VI" URL="../VPA QC Main.vi"/>
-		<Item Name="VPA QC Parse String.vi" Type="VI" URL="../Sub VIs/VPA QC Parse String.vi"/>
 		<Item Name="VPA QC Pressure Test.vi" Type="VI" URL="../VPA QC Pressure Test.vi"/>
+		<Item Name="VPA QC Update Flow Rate Volume Pumped.vi" Type="VI" URL="../Sub VIs/VPA QC Update Flow Rate Volume Pumped.vi"/>
 		<Item Name="VPA QC Verify Pump Operation.vi" Type="VI" URL="../VPA QC Verify Pump Operation.vi"/>
 		<Item Name="VPA QC View Notes.vi" Type="VI" URL="../VPA QC View Notes.vi"/>
-		<Item Name="VPA QC Vol Cal Data Cluster.ctl" Type="VI" URL="../Sub VIs/VPA QC Vol Cal Data Cluster.ctl"/>
 		<Item Name="VPA QC Volume Calibration.vi" Type="VI" URL="../VPA QC Volume Calibration.vi"/>
 		<Item Name="VPA QC XDCR and Scale Setup.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR and Scale Setup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
