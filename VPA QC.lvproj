@@ -16,6 +16,7 @@
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Galil Read Variables.vi" Type="VI" URL="../Sub VIs/Galil Read Variables.vi"/>
 			<Item Name="MS Elapsed.vi" Type="VI" URL="../Sub VIs/MS Elapsed.vi"/>
+			<Item Name="VPA QC Calc Values.vi" Type="VI" URL="../Sub VIs/VPA QC Calc Values.vi"/>
 			<Item Name="VPA QC Config IO.vi" Type="VI" URL="../Sub VIs/VPA QC Config IO.vi"/>
 			<Item Name="VPA QC DAQ Loop.vi" Type="VI" URL="../VPA QC DAQ Loop.vi"/>
 			<Item Name="VPA QC Digital Scale DAQ.vi" Type="VI" URL="../Sub VIs/VPA QC Digital Scale DAQ.vi"/>
@@ -28,11 +29,11 @@
 		</Item>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
 		<Item Name="VPA QC Add Comment.vi" Type="VI" URL="../VPA QC Add Comment.vi"/>
-		<Item Name="VPA QC Assemble Checklist.vi" Type="VI" URL="../VPA QC Assemble Checklist.vi"/>
-		<Item Name="VPA QC Calc Values.vi" Type="VI" URL="../Sub VIs/VPA QC Calc Values.vi"/>
+		<Item Name="VPA QC Assembly Checklist.vi" Type="VI" URL="../VPA QC Assembly Checklist.vi"/>
 		<Item Name="VPA QC Calibrate XDCRs.vi" Type="VI" URL="../VPA QC Calibrate XDCRs.vi"/>
 		<Item Name="VPA QC Choose Printer.vi" Type="VI" URL="../Sub VIs/VPA QC Choose Printer.vi"/>
 		<Item Name="VPA QC Final Checklist.vi" Type="VI" URL="../VPA QC Final Checklist.vi"/>
+		<Item Name="VPA QC Flow Calibration.vi" Type="VI" URL="../VPA QC Flow Calibration.vi"/>
 		<Item Name="VPA QC Flow Test.vi" Type="VI" URL="../VPA QC Flow Test.vi"/>
 		<Item Name="VPA QC General Section.vi" Type="VI" URL="../VPA QC General Section.vi"/>
 		<Item Name="VPA QC Graph Size.vi" Type="VI" URL="../VPA QC Graph Size.vi"/>
@@ -43,6 +44,7 @@
 		<Item Name="VPA QC Pressure Test.vi" Type="VI" URL="../VPA QC Pressure Test.vi"/>
 		<Item Name="VPA QC Verify Pump Operation.vi" Type="VI" URL="../VPA QC Verify Pump Operation.vi"/>
 		<Item Name="VPA QC View Notes.vi" Type="VI" URL="../VPA QC View Notes.vi"/>
+		<Item Name="VPA QC Vol Cal Data Cluster.ctl" Type="VI" URL="../Sub VIs/VPA QC Vol Cal Data Cluster.ctl"/>
 		<Item Name="VPA QC Volume Calibration.vi" Type="VI" URL="../VPA QC Volume Calibration.vi"/>
 		<Item Name="VPA QC XDCR and Scale Setup.vi" Type="VI" URL="../Sub VIs/VPA QC XDCR and Scale Setup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
